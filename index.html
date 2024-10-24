@@ -1,1 +1,115 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../static/images/personal2.jpeg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kennedy Irungu Maina, a professional web developer proficient in HTML, CSS, JavaScript, and PHP">
+    <title>Kennedy Irungu Maina | Web Developer</title>
+    <link rel="stylesheet" href="../../portfolio/style/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="intro">
+                <img src="../static/images/personal2.jpeg" alt="Profile Picture" class="profile-pic">
+                <h1>Hi, I'm <span>Kennedy Irungu Maina</span></h1>
+                <p>A Professional Web Developer | Frontend & Backend Specialist</p>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I am a passionate web developer with extensive experience in JavaScript, HTML, CSS, and PHP. I specialize in building responsive, high-performance websites and web applications that provide an excellent user experience.</p>
+    </section>
+    <br>
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">
+                <h3>HTML5</h3>
+                <div class="stars">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS3</h3>
+                <div class="stars">
+                    <span>★★★★☆</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript (ES6+)</h3>
+                <div class="stars">
+                    <span>★★★★★</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>PHP</h3>
+                <div class="stars">
+                    <span>★★★★☆</span>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>PYTHON</h3>
+                <div class="stars">
+                    <span>★★★★☆</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+        <div class="project">
+            <h3>Project 1: E-commerce Website</h3>
+            <p>A fully functional e-commerce platform with a user-friendly interface, shopping cart functionality, and payment integration using PHP and MySQL.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Portfolio Website</h3>
+            <p>A personal portfolio showcasing my skills and projects. Built with HTML, CSS, and JavaScript to ensure a responsive and engaging user experience.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Task Manager App</h3>
+            <p>A task management web application with a clean UI that allows users to create, manage, and track tasks. Developed using JavaScript and Firebase for real-time updates.</p>
+        </div>
+        <div class="project">
+            <h3>Project 4: Blogging Platform</h3>
+            <p>A dynamic blogging platform where users can create, edit, and delete posts. Developed using PHP and MySQL with a focus on security and performance.</p>
+        </div>
+    </div>
+</section>
+<br>
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <form action="/contact" method="POST" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Or reach me via <a href="https://wa.me/254702877665" target="_blank" class="whatsapp-btn">
+            <img src="../static/images/whatsapp-icon.png" alt="WhatsApp" width="20"> WhatsApp</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Kennedy Irungu Maina. All rights reserved.</p>
+    </footer>
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
